@@ -1,0 +1,24 @@
+{
+  "chaff_settings": {
+    "enabled": true,
+    "min_delay": 0.05,
+    "max_delay": 0.2,
+    "decoy_pool": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+-=[]{}|;:,.<>?"
+  },
+  "behavioral_monitor": {
+    "poll_interval": 0.3,
+    "secure_windows": [
+      "Notepad",
+      "Visual Studio Code",
+      "Google Chrome",
+      "Command Prompt",
+      "PowerShell",
+      "Word",
+      "WINWORD.EXE"
+    ]
+  },
+  "security_suite": {
+    "emergency_hotkey": "f12",
+    "debug_mode": true
+  }
+}
